@@ -49,7 +49,7 @@ const EditBook = () => {
 
       // Use PUT request for updating an existing book
       const response = await axios.put(
-        `http://localhost:3000/books/${id}`,
+        `https://bookslibrary-backend-production.up.railway.app/books/${id}`,
         updatedData
       );
 
